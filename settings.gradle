@@ -12,6 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "PickerFileSelecterTest"
+rootProject.name = "PickerFileNowApp"
 include ':app'
-include ':PickerFileSelector'
+include ':PickerFileNow'
