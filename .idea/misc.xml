@@ -8,6 +8,11 @@
         <entry key="../../../../layout/compose-model-1649318393769.xml" value="0.375" />
         <entry key="../../../../layout/compose-model-1649328002280.xml" value="0.2638888888888889" />
         <entry key="../../../../layout/compose-model-1649345568414.xml" value="0.3" />
+        <entry key="../../../../layout/compose-model-1649680212998.xml" value="0.1962962962962963" />
+        <entry key="../../../../layout/compose-model-1649680541485.xml" value="0.15076013513513514" />
+        <entry key="../../../../layout/compose-model-1649680797944.xml" value="0.335" />
+        <entry key="../../../../layout/compose-model-1649719261733.xml" value="0.3962962962962963" />
+        <entry key="../../../../layout/compose-model-1649799026104.xml" value="0.3962962962962963" />
         <entry key="PickerFileNow/src/main/res/drawable/ic_check_circle.xml" value="0.106" />
         <entry key="PickerFileNow/src/main/res/drawable/ic_file_base.xml" value="0.1" />
         <entry key="PickerFileNow/src/main/res/drawable/ic_file_pdf.xml" value="0.162" />
@@ -22,7 +27,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

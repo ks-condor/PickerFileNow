@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"/>
         <androidx.compose.ui.platform.ComposeView
             android:layout_marginTop="6dp"
-            android:id="@+id/pickerSelectorFront"
+            android:id="@+id/pickerFileFront"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <TextView
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"/>
         <androidx.compose.ui.platform.ComposeView
             android:layout_marginTop="6dp"
-            android:id="@+id/pickerSelectorBack"
+            android:id="@+id/pickerFileBack"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>

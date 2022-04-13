@@ -14,4 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "PickerFileNowApp"
 include ':app'
-include ':PickerFileNow'
+include ':CustomPickerFile'
+include ':libs'
+include ':libs:filehelper'
