@@ -1,4 +1,4 @@
-package com.evercheck.wallet.filehelper
+package com.evercheck.wallet.filehelper.exceptions
 
 class NotSupportedUriException : Exception() {
     override val message: String

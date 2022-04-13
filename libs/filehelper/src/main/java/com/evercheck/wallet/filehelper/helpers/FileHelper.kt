@@ -7,8 +7,8 @@ import android.media.MediaScannerConnection
 import android.net.Uri
 import android.os.Environment
 import android.provider.OpenableColumns
-import com.evercheck.wallet.filehelper.NotSupportedUriException
-import com.evercheck.wallet.filehelper.PathNotFoundForUriException
+import com.evercheck.wallet.filehelper.exceptions.NotSupportedUriException
+import com.evercheck.wallet.filehelper.exceptions.PathNotFoundForUriException
 import java.io.File
 import java.io.FileNotFoundException
 import java.io.FileOutputStream

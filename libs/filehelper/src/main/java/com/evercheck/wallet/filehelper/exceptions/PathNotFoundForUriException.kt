@@ -1,3 +1,3 @@
-package com.evercheck.wallet.filehelper
+package com.evercheck.wallet.filehelper.exceptions
 
 class PathNotFoundForUriException : NullPointerException()
