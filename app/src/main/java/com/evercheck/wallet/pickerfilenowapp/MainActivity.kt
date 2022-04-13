@@ -40,14 +40,11 @@ class MainActivity : AppCompatActivity(), PickerFileListener {
             )
         )
         binding.pickerFileFront.setContent {
-            MdcTheme {
                 PickerComponent(pickerFileConfig = pickerFileConfig,
                     pickerFileListener = this).ContentScreen()
-            }
         }
 
         binding.pickerFileBack.setContent {
-            MdcTheme {
                 PickerComponent(
                     pickerFileConfig.copy(
                         componentId = binding.pickerFileBack.id,
@@ -62,7 +59,6 @@ class MainActivity : AppCompatActivity(), PickerFileListener {
                     ),
                     pickerFileListener = this
                 ).ContentScreen()
-            }
         }
     }
 

@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawBehind
@@ -18,7 +17,6 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.scale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.evercheck.wallet.custompickerfile.models.PickerFileConfig
 import com.evercheck.wallet.custompickerfile.ui.PickerFileListener
@@ -27,15 +25,11 @@ import com.evercheck.wallet.custompickerfile.ui.components.SummaryPDF
 import com.evercheck.wallet.custompickerfile.ui.components.SummaryPhoto
 import com.evercheck.wallet.custompickerfile.ui.createDrawPath
 import com.evercheck.wallet.custompickerfile.utils.PermissionRequest
-import com.google.accompanist.permissions.ExperimentalPermissionsApi
 
-@OptIn(ExperimentalPermissionsApi::class)
 class PickerComponent(
     private val pickerFileConfig: PickerFileConfig,
     private val pickerFileListener: PickerFileListener
 ): ComponentActivity() {
-
-    private val isSelectedFile = mutableStateOf(false)
 
     @Composable
     fun ContentScreen() {
